@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0062A329E9E7A700CEFCCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0062A229E9E7A700CEFCCD /* AppDelegate.swift */; };
+		4F0062A529E9E7A700CEFCCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0062A429E9E7A700CEFCCD /* SceneDelegate.swift */; };
+		4F0062AA29E9E7A700CEFCCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0062A829E9E7A700CEFCCD /* Main.storyboard */; };
+		4F0062AC29E9E7AA00CEFCCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0062AB29E9E7AA00CEFCCD /* Assets.xcassets */; };
+		4F0062AF29E9E7AA00CEFCCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0062AD29E9E7AA00CEFCCD /* LaunchScreen.storyboard */; };
+		4F0062B729E9E85200CEFCCD /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0062B629E9E85200CEFCCD /* RemindersViewController.swift */; };
+		4F0062BC29E9EBB600CEFCCD /* GaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0062BB29E9EBB600CEFCCD /* GaitViewController.swift */; };
+		4F0062BE29E9EBC000CEFCCD /* TremorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0062BD29E9EBC000CEFCCD /* TremorViewController.swift */; };
+		4F09DBBA29FF57BA00A56718 /* NeuroTrackLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F09DBB929FF57BA00A56718 /* NeuroTrackLogo.png */; };
+		4F72C51129EA24D300CAA082 /* ParkinsonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F72C51029EA24D300CAA082 /* ParkinsonsModel.swift */; };
+		4F72C51529EA33B600CAA082 /* RemindersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F72C51429EA33B600CAA082 /* RemindersTableViewController.swift */; };
+		4F72C51929EA376E00CAA082 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F72C51829EA376E00CAA082 /* ReminderTableViewCell.swift */; };
+		CE29F73F29EF608000442B1D /* MeasuringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29F73E29EF608000442B1D /* MeasuringViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F00629F29E9E7A700CEFCCD /* TrackPD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackPD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0062A229E9E7A700CEFCCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F0062A429E9E7A700CEFCCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F0062A929E9E7A700CEFCCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F0062AB29E9E7AA00CEFCCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F0062AE29E9E7AA00CEFCCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F0062B029E9E7AA00CEFCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F0062B629E9E85200CEFCCD /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
+		4F0062B829E9E9D700CEFCCD /* TrackPD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackPD.entitlements; sourceTree = "<group>"; };
+		4F0062BB29E9EBB600CEFCCD /* GaitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaitViewController.swift; sourceTree = "<group>"; };
+		4F0062BD29E9EBC000CEFCCD /* TremorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorViewController.swift; sourceTree = "<group>"; };
+		4F09DBB929FF57BA00A56718 /* NeuroTrackLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeuroTrackLogo.png; sourceTree = "<group>"; };
+		4F72C51029EA24D300CAA082 /* ParkinsonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkinsonsModel.swift; sourceTree = "<group>"; };
+		4F72C51429EA33B600CAA082 /* RemindersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTableViewController.swift; sourceTree = "<group>"; };
+		4F72C51829EA376E00CAA082 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		CE29F73E29EF608000442B1D /* MeasuringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuringViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F00629C29E9E7A700CEFCCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F00629629E9E7A700CEFCCD = {
+			isa = PBXGroup;
+			children = (
+				4F0062A129E9E7A700CEFCCD /* TrackPD */,
+				4F0062A029E9E7A700CEFCCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F0062A029E9E7A700CEFCCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F00629F29E9E7A700CEFCCD /* TrackPD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F0062A129E9E7A700CEFCCD /* TrackPD */ = {
+			isa = PBXGroup;
+			children = (
+				4F09DBB929FF57BA00A56718 /* NeuroTrackLogo.png */,
+				4F72C51029EA24D300CAA082 /* ParkinsonsModel.swift */,
+				4F0062B829E9E9D700CEFCCD /* TrackPD.entitlements */,
+				4F0062A229E9E7A700CEFCCD /* AppDelegate.swift */,
+				4F0062A429E9E7A700CEFCCD /* SceneDelegate.swift */,
+				4F0062A829E9E7A700CEFCCD /* Main.storyboard */,
+				4F0062AB29E9E7AA00CEFCCD /* Assets.xcassets */,
+				4F0062AD29E9E7AA00CEFCCD /* LaunchScreen.storyboard */,
+				4F0062B029E9E7AA00CEFCCD /* Info.plist */,
+				4F0062B629E9E85200CEFCCD /* RemindersViewController.swift */,
+				4F0062BB29E9EBB600CEFCCD /* GaitViewController.swift */,
+				4F0062BD29E9EBC000CEFCCD /* TremorViewController.swift */,
+				4F72C51429EA33B600CAA082 /* RemindersTableViewController.swift */,
+				4F72C51829EA376E00CAA082 /* ReminderTableViewCell.swift */,
+				CE29F73E29EF608000442B1D /* MeasuringViewController.swift */,
+			);
+			path = TrackPD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F00629E29E9E7A700CEFCCD /* TrackPD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0062B329E9E7AA00CEFCCD /* Build configuration list for PBXNativeTarget "TrackPD" */;
+			buildPhases = (
+				4F00629B29E9E7A700CEFCCD /* Sources */,
+				4F00629C29E9E7A700CEFCCD /* Frameworks */,
+				4F00629D29E9E7A700CEFCCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackPD;
+			productName = TrackPD;
+			productReference = 4F00629F29E9E7A700CEFCCD /* TrackPD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F00629729E9E7A700CEFCCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4F00629E29E9E7A700CEFCCD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4F00629A29E9E7A700CEFCCD /* Build configuration list for PBXProject "NeuroTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F00629629E9E7A700CEFCCD;
+			productRefGroup = 4F0062A029E9E7A700CEFCCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F00629E29E9E7A700CEFCCD /* TrackPD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F00629D29E9E7A700CEFCCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F09DBBA29FF57BA00A56718 /* NeuroTrackLogo.png in Resources */,
+				4F0062AF29E9E7AA00CEFCCD /* LaunchScreen.storyboard in Resources */,
+				4F0062AC29E9E7AA00CEFCCD /* Assets.xcassets in Resources */,
+				4F0062AA29E9E7A700CEFCCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F00629B29E9E7A700CEFCCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0062B729E9E85200CEFCCD /* RemindersViewController.swift in Sources */,
+				4F72C51129EA24D300CAA082 /* ParkinsonsModel.swift in Sources */,
+				4F0062BE29E9EBC000CEFCCD /* TremorViewController.swift in Sources */,
+				4F0062A329E9E7A700CEFCCD /* AppDelegate.swift in Sources */,
+				CE29F73F29EF608000442B1D /* MeasuringViewController.swift in Sources */,
+				4F72C51529EA33B600CAA082 /* RemindersTableViewController.swift in Sources */,
+				4F0062A529E9E7A700CEFCCD /* SceneDelegate.swift in Sources */,
+				4F0062BC29E9EBB600CEFCCD /* GaitViewController.swift in Sources */,
+				4F72C51929EA376E00CAA082 /* ReminderTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F0062A829E9E7A700CEFCCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F0062A929E9E7A700CEFCCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F0062AD29E9E7AA00CEFCCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F0062AE29E9E7AA00CEFCCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F0062B129E9E7AA00CEFCCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F0062B229E9E7AA00CEFCCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F0062B429E9E7AA00CEFCCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = TrackPD/TrackPD.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRJF8DNL9A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackPD/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NeuroTrack;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Let us track motion so that we track your symptoms";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "finalproject-finished";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F0062B529E9E7AA00CEFCCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = TrackPD/TrackPD.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRJF8DNL9A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackPD/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NeuroTrack;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Let us track motion so that we track your symptoms";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "finalproject-finished";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F00629A29E9E7A700CEFCCD /* Build configuration list for PBXProject "NeuroTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0062B129E9E7AA00CEFCCD /* Debug */,
+				4F0062B229E9E7AA00CEFCCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F0062B329E9E7AA00CEFCCD /* Build configuration list for PBXNativeTarget "TrackPD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0062B429E9E7AA00CEFCCD /* Debug */,
+				4F0062B529E9E7AA00CEFCCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F00629729E9E7A700CEFCCD /* Project object */;
+}
